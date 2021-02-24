@@ -1,0 +1,16 @@
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: A job to say hello
+    steps:
+    - name: Hello world action step
+      id: hello
+      uses: a-saran/asana-github@1.0.0
+      with:
+        asana-pat: '1/1182150655295195:d11ad26c8383ae9a7fea08feaed04992'
+        targets: '[{"project": "github task automation", "section": "Development Done"}]'
