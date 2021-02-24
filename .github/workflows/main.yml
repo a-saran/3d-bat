@@ -4,9 +4,9 @@ on:
       - master
 
 jobs:
-  hello_world_job:
+  create-asana-task:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: Create asana task
     steps:
     - name: Hello world action step
       id: hello
