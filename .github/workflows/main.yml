@@ -12,5 +12,5 @@ jobs:
       id: hello
       uses: a-saran/asana-github@1.0.11
       with:
-        asana-pat: '1/1182150655295195:d11ad26c8383ae9a7fea08feaed04992'
+        asana-pat: 1/1182150655295195:dd4632e9875f7797a4895b1092bb2f5c
         targets: '[{"project": "github task automation", "section": "Development Done"}]'
