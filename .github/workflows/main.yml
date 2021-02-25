@@ -10,7 +10,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: a-saran/asana-github@1.0.9
+      uses: a-saran/asana-github@1.0.10
       with:
         asana-pat: '1/1182150655295195:d11ad26c8383ae9a7fea08feaed04992'
         targets: '[{"project": "github task automation", "section": "Development Done"}]'
